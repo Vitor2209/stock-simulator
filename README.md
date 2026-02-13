@@ -25,9 +25,13 @@ The main focus of this project is backend architecture, business logic, API inte
 This project follows a modular backend structure:
 
 src/
+
 ├── services/ # Business logic (stock + trading logic)
+
 ├── utils/ # Logger utilities
+
 ├── logs/ # Transaction logs
+
 └── index.js # Application entry point
 
 
